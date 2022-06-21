@@ -3,18 +3,14 @@
   --bkg-color: #eee;
 }
 
+body {
+  background: var(--bkg-color);
+  color: var(--text-color);
+}
+
 body.dark {
   --text-color: #eee;
   --bkg-color: #444;
-}
-
-body {
-  background: var(--bkg-color);
-}
-
-h1,
-p {
-  color: var(--text-color);
 }
 
 button {
